@@ -13,7 +13,7 @@ class Solution:
                 right-=1
     
         left=n.index(sortedNums[left])
-        n[left]=1.1
+        n[left]=1.67
         right=n.index(sortedNums[right])
         return (left, right)
 

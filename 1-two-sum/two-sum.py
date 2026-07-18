@@ -13,7 +13,7 @@ class Solution:
                 right-=1
     
         left=n.index(sortedNums[left])
-        n[left]=float('inf')
+        n[left]=0.67
         right=n.index(sortedNums[right])
         return (left, right)
 
